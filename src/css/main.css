@@ -9,6 +9,10 @@
   --accordion-background-active: #2f84ed;
 }
 
+.accordion-body{
+  padding: 0 !important;
+}
+
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -205,7 +209,7 @@ body {
 
 
 @media screen and (max-width: 480px){
-.wrapper, .accordion-body{
+.wrapper{
   padding: 0 !important;
 }
   
